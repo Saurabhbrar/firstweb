@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Wolf</title>
+    <style>
+        #head{
+            height: 180px;
+            width: 100%;
+           
+            display: flex;
+            background-color: brown;
+                
+        }
+        .h-1{
+            height: 100%;
+            width: 400px;
+        }
+        .h1img{
+            height: 100%;
+            width: 100%;   
+            
+        }
+        .h-2{
+            height: 30px;
+            width: 150px;
+            
+            
+            margin-top: 15px;
+            
+        }
+        .h2button{
+            height: 100%;
+            width: 100%;
+            background-color:rgb(47, 44, 44);
+            color: rgb(255, 255, 255);
+            
+        }
+        .h-3{
+            height: 30px;
+            width: 150px;
+            margin-top: 15px;
+        }
+        .h3button{
+            height: 100%;
+            width: 100%;
+            background-color:rgb(47, 44, 44);
+            color: rgb(255, 255, 255);
+        }
+        .h-4{
+            height: 30px;
+            width: 150px;
+            margin-top: 15px;
+            
+            
+        }
+        .h4button{
+            height: 100%;
+            width: 100%;
+            background-color:rgb(47, 44, 44);
+            color: rgb(255, 255, 255); 
+
+        }
+        .h5{
+            height: 60px;
+            width: 1000px;
+        }
+        .h5f{
+            margin-left: 20px;
+            color: rgb(255, 255, 255);
+            font-size: 50px;
+           
+            
+        }
+        .h5button{
+            height: 80%;
+            width: 20%;
+            background-color:rgb(47, 44, 44);
+            color: rgb(255, 255, 255);
+            margin-left: 20px
+        }
+            
+            
+            
+        
+        #between{
+            height: 800px;
+            width: 100%;
+            
+            
+        }
+        #trainer{
+            height: 400px;
+            width: 100%;
+           
+            display: flex;
+             
+        }
+        .trainer1{
+            height: 400px;
+            width: 50%;
+           
+            background-color: rgb(47, 44, 44);
+        }
+        .trainer1button{
+            cursor: pointer;
+             margin-top: 5px;
+             margin-left: 200px;
+             width: 50%;
+             border: 0;
+             line-height: 2.5;
+             padding: 0 20px;
+             font-size: 1rem;
+             text-align: center;
+             color: #fff;
+             text-shadow: 1px 1px 1px #000;
+             border-radius: 10px;
+             background-color: rgba(220, 0, 0, 1);
+             background-image: linear-gradient(to top left,rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2) 30%,rgba(0, 0, 0, 0));
+             box-shadow:
+             inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+             inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+            }
+
+            .styled:hover {
+              background-color: rgba(255, 0, 0, 1);
+            }
+
+            .styled:active {
+             box-shadow:
+             inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+             inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+            }
+        
+        .trainer2{
+            height: 400px;
+            width: 50%;
+            
+        }
+        .trainer2img{
+            height: 100%;
+            width: 100%;
+        }
+        #features{
+            height: 400px;
+            width: 100%;
+            
+            background-color: rgb(47, 44, 44);
+            display: flex;
+
+        }
+        .features1{
+            height: 400px;
+            width: 50%;
+           
+        }
+        .features2{
+            height: 400px;
+            width: 50%;
+           
+        }
+        .features1img{
+            height: 100%;
+            width: 100%;
+        }
+        #progress{
+            height: 400px;
+            width: 100%;
+           
+            background-color: rgb(47, 44, 44);
+            display: flex;
+        }
+        .progress1{
+            height: 400px;
+            width: 50%;
+        }
+        .progress2{
+            height: 400px;
+            width: 50%;
+        }
+        .progress1img{
+            height: 100%;
+            width: 100%;
+        }
+
+        #database{
+            height: 400px;
+            width: 100%;
+           
+            background-color: rgb(47, 44, 44);
+            display: flex;
+        }
+        .data1{
+            height: 400px;
+            width: 50%;
+        }
+        .data2{
+            height: 400px;
+            width: 50%;
+        }
+        .data1img{
+            height: 100%;
+            width: 100%;
+        }
+
+        #lift{
+            height: 350px;
+            width: 100%;
+            
+            background-color: rgb(47, 44, 44);
+        }
+        .liftimg{
+            height: 100%;
+            width: 100%;
+        }
+
+        #extra{
+            height: 400px;
+            width: 100%;
+            
+            display: flex;
+        }
+        .extrabottemimg{
+            width: 100%;
+        }
+        .hfont{
+            text-align: center;
+            color: rgb(255, 255, 255);
+            
+        }
+        .pfont{
+            color: rgb(255, 255, 255);
+            font-size: 25px;
+            margin-left: 5px;
+        }
+        
+        
+
+
+        
+
+    </style> 
+
+</head>
+<body>
+    <div id="head">
+        <div class="h-1">
+            <img class="h1img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGho5BzDHgM39FmvP8AgyhD7AUEqwFnKEspA&usqp=CAU" alt="gym">
+        </div>
+        <div class="h5" >
+            <h1 class="h5f" >A better way to track your workouts</h1>
+            <button class="h5button" >Start Free</button>
+        </div>
+        <div class="h-2">
+            <button class="h2button" >Register</button>
+        </div>
+        <div class="h-3">
+            <a href="loginform.html"><button class="h3button" >Sign In</button></a>
+        </div>
+        <div class="h-4" >
+           <button  class="h4button">Search</button>
+        </div>
+        
+        </div>
+    </div>
+    <div id="between">
+        <video width="100%" height="900px" autoplay muted>
+            
+            <source src="https://gymwolf.com/images/Gymwolf_video.mp4" type="video/mp4">
+            
+            <source src="movie.ogg" type="video/ogg">
+            
+          
+          </video>
+    </div>
+
+
+    <div id="trainer">
+        <div class="trainer1" >
+            <h1 class="hfont" >Online personal trainer</h1>
+            <p class="pfont" >Gymwolf has certified personal trainers that provide 
+                you with customised workout plans depending on your goals.Our trainers track your progress,
+                coach and motivate you daily through our web and smartphone app.</p>
+            <a href="online personal trainer.html"><button class="trainer1button" type="button">Learn more</button></a>
+                          
+        </div>
+
+        <div class="trainer2" >
+            <img class="trainer2img" src="https://webassets-prod.ultimateperformance.com/uploads/2023/01/13101233/Partner-Coach-Banner-1200x900px.jpg" alt="">    
+        </div>
+    </div>
+
+
+    <div id="features">
+        <div class="features1" >
+            <img class="features1img" src="https://www.glofox.com/wp-content/uploads/2021/02/Gym-2-1024x536.png" alt="">
+        </div>
+        <div class="features2" > 
+            <h1 class="hfont" >Features</h1>
+            <p  class="pfont" >Gymwolf is a workout tracking tool. Add workouts, create your own customized workout plans or find suitable plan from other users.
+                 Accomplish your goals with motivation from personal trainer and committed training.</p>
+                 
+                 <a href="Features.html"><button class="trainer1button" type="button">Take a tour</button></a>
+
+                 
+        </div>
+    </div>
+
+
+    <div id="progress">
+        <div class="progress1" >
+            <h1 class="hfont" >See your progress</h1>
+            <p class="pfont" >Gymwolf provides different graphs that help you track your progress. 
+                There are graphs for gym workouts, cardio workouts and bodyweight. The graphs are highly
+                 customizable: you can select the date range, exercise and group the results by month, week or single workout.</p>
+                 <a href="Features.html"><button class="trainer1button" type="button">Take a tour</button></a>
+                 
+        </div>
+        <div class="progress2" >
+            <img class="progress1img" src="https://thumbs.dreamstime.com/b/fit-attractive-young-couple-gym-looking-tablet-pc-as-monitor-their-progress-fitness-87823784.jpg" alt="">
+        </div>
+    </div>
+    <div id="database">
+        <div class="data1" >
+            <img class="data1img" src="https://www.opensourceforu.com/wp-content/uploads/2021/12/Database-featured-image.png" alt="">
+        </div>
+        <div class="data2" >
+            <h1 class="hfont" >Database with 300+ exercises</h1>
+            <p class="pfont" >Gymwolf has a database with over 300 exercises. The exercises come with detailed descriptions, tips and step-by-step images.
+                 If you don't find a exercise from our database, then you can also add your own exercises.</p>
+                 <a href="https://gymwolf.com/exercises"><button class="trainer1button" type="button">Check out</button></a>
+                 
+        </div>
+    </div>
+
+    <div id="lift" >
+        <img class="liftimg" src="Gymwolf-Gym-and-Cardio-workout-tracker-.png" alt="">
+       
+    </div>
+
+    <div id="extra" >
+        <img class="extrabottemimg" src="bottem.png" alt="">
+
+    </div>
+
+    
+    
+</body>
+</html>
